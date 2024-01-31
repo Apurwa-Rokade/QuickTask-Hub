@@ -29,7 +29,7 @@ Styled with Tailwind CSS for a clean, dark-themed design.
 
 1. Install dependencies: `npm install`
 2. Start development server: `npm run dev`
-3. View at [http://localhost:3000](cheerful-tartufo-35cf2c.netlify.app/)
+3. View at [https://cheerful-tartufo-35cf2c.netlify.app/](https://cheerful-tartufo-35cf2c.netlify.app/)
 
 ## Snapshot
 
