@@ -1,8 +1,38 @@
-# React + Vite
+# React Todo List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Todo List app built with Vite and React. Manage todos with add, update, delete, and complete functions. Uses local storage for persistence.
 
-Currently, two official plugins are available:
+## Components and Context
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **App.jsx**: Main component with todo management context.
+- **TodoForm.jsx**: Component for adding new todos.
+- **TodoItem.jsx**: Component for displaying individual todo items.
+- **contexts/TodoProvider.jsx**: Context provider for todo state and functions.
+
+## State and Functions
+
+- `todos`: State array holding todos.
+- `addTodo`: Adds a new todo.
+- `updateTodo`: Updates an existing todo.
+- `deleteTodo`: Deletes a todo.
+- `toggleComplete`: Toggles completion status.
+
+## Local Storage
+
+Uses `localStorage` to persist todos.
+
+## Styling
+
+Styled with Tailwind CSS for a clean, dark-themed design.
+
+## Usage
+
+1. Install dependencies: `npm install`
+2. Start development server: `npm run dev`
+3. View at [http://localhost:3000](http://localhost:3000)
+
+## Snapshot
+
+![Todo List Snapshot](src/assets/snapshot.png)
+
+Explore and customize the code as needed.
